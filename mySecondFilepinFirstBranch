@@ -1,4 +1,12 @@
-User Permissions Are Not Disabled in the Destination Org When Deploying Profiles
-User Permissions set to false are not retrieved by the Metadata API. This is the standard behavior of Salesforce’s Metadata API. If you do a retrieve of a profile with Workbench or ANT Migration Tool, you will get only the user permissions that are set to true on that profile.
+User Permissions Are Not Disabled in the Destination Org When Deploying Profiles --- Test Text added to test the revert operation
 
-When committing a profile in a user story, you will see that the user permissions set to true in the master branch are removed in the feature branch if they are set to false in the source org. This is because user permissions set to false are not retrieved by the Metadata API.
+
+User Permissions set to false are not retrieved by the Metadata API. 
+This is the standard behavior of Salesforce’s Metadata API. 
+If you do a retrieve of a profile with Workbench or ANT Migration Tool, you will get only the user permissions that are set to true on that profile.
+
+
+
+When committing a profile in a user story, 
+you will see that the user permissions set to true in the master branch are removed in the feature branch if they are set to false in the source org. 
+This is because user permissions set to false are not retrieved by the Metadata API.
